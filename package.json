@@ -1,12 +1,12 @@
 {
   "name": "no-js-analytics",
-  "version": "0.1.9",
-  "author": "Juuso Haavisto <juuso@mail.com>",
-  "description": "Really basic visitor analytics for speed demons using express.",
+  "version": "0.1.10",
+  "author": "Andy Kelly - <andykelly@outlook.com>",
+  "description": "Fork of no-js-analytics by Juuso Haavisto <juuso@mail.com>",
   "main": "./lib/middleware",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jhsto/no-js-analytics.git"
+    "url": "https://github.com/AndyKelly/no-js-analytics"
   },
   "keywords": [
     "analytics",
@@ -15,9 +15,11 @@
     "nojs"
   ],
   "dependencies" : {
-    "moment"   :  "1.7.2",
     "express-useragent" :  "0.0.7",
-    "underscore.string": "2.3.0"
+    "underscore.string": "2.3.0",
+    "redis": "0.12.1",
+    "hiredis": "0.1.17",
+    "ejs" : "latest"
   },
   "license": "MIT",
   "engines": {
