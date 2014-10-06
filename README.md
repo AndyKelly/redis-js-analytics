@@ -1,13 +1,15 @@
 #no-js-analytics
 ##simple analytics middleware for [express](http://expressjs.com/)
 
+#Note:
+This isn't finished yet.
 
 ##Installation:   
-```$ npm install no-js-analytics```
+```$ npm install redis-js-analytics```
 
 ##Usage:
 ```javascript
-var analytics = require('no-js-analytics');
+var analytics = require('redis-js-analytics');
 
 app.configure(function(){
   ... (start of your express configuration)
