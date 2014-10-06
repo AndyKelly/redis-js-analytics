@@ -1,25 +1,25 @@
 {
-  "name": "no-js-analytics",
-  "version": "0.1.10",
+  "name": "redis-js-analytics",
+  "version": "0.0.1",
   "author": "Andy Kelly - <andykelly@outlook.com>",
-  "description": "Fork of no-js-analytics by Juuso Haavisto <juuso@mail.com>",
+  "description": "Get simple analytics about an express service, uses redis for persistance. Fork of no-js-analytics by Juuso Haavisto <juuso@mail.com>",
   "main": "./lib/middleware",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AndyKelly/no-js-analytics"
+    "url": "https://github.com/AndyKelly/redis-js-analytics"
   },
   "keywords": [
     "analytics",
     "middleware",
     "express",
-    "nojs"
+    "nojs",
+    "redis"
   ],
   "dependencies" : {
     "express-useragent" :  "0.0.7",
     "underscore.string": "2.3.0",
     "redis": "0.12.1",
-    "hiredis": "0.1.17",
-    "ejs" : "latest"
+    "hiredis": "0.1.17"
   },
   "license": "MIT",
   "engines": {
