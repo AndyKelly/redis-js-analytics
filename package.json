@@ -1,6 +1,6 @@
 {
   "name": "redis-js-analytics",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Andy Kelly - <andykelly@outlook.com>",
   "description": "Get simple analytics about an express service, uses redis for persistance. Fork of no-js-analytics by Juuso Haavisto <juuso@mail.com>",
   "main": "./lib/middleware",
@@ -17,7 +17,6 @@
   ],
   "dependencies" : {
     "express-useragent" :  "0.0.7",
-    "underscore.string": "2.3.0",
     "redis": "0.12.1",
     "hiredis": "0.1.17"
   },

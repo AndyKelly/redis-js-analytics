@@ -33,6 +33,10 @@ app.get('/analytics', function(req, res){
 });
 ```
 
+##TODO's:
+Currently any unique queries will get stored. i.e. localhost:1337?search?=I'm%20a%20unique%20string!
+Ideally these should be aggregated up to a point.
+
 ###License (MIT)
    Copyright (c) 2013 Juuso Haavisto <juuso@mail.com>
 
