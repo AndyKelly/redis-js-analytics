@@ -1,6 +1,6 @@
 {
   "name": "redis-js-analytics",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Andy Kelly - <andykelly@outlook.com>",
   "description": "Get simple analytics about an express service, uses redis for persistance. Fork of no-js-analytics by Juuso Haavisto <juuso@mail.com>",
   "main": "./lib/middleware",
